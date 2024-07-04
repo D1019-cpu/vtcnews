@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTC - ĐÀI TRUYỀN HÌNH KTS</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header-top d-flex align-items-center justify-content-center">
+            <div class="header-top-item">
+                <div class="header-search">
+                    <input type="search" name="s" placeholder="Thông tin chương trình">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <div class="header-top-item contact-time">
+                <a href="mailto:maunhivtc@gmail.com">
+                    <i class="fa-solid fa-envelope"></i> CONTACT
+                </a>
+                <a href="javascript:void(0)">
+                    <i class="fa-solid fa-clock"></i> 08:00 - 17:00
+                </a>
+                <a href="tel:1900.99.88.77">
+                    <i class="fa-solid fa-phone"></i> 1900.99.88.77
+                </a>
+            </div>
+            <div class="header-top-item header-socials">
+                <a href="#" class="tooltip"><i class="fa-brands fa-facebook-f"></i> <span class="tooltip-text">Follow on Facebook</span></a>
+                <a href="#" class="tooltip"><i class="fa-solid fa-envelope"></i> <span class="tooltip-text">Send us an email</span></a>
+                <a href="#" class="tooltip"><i class="fa-solid fa-phone"></i> <span class="tooltip-text">Call us</span></a>
+                <a href="#" class="tooltip"><i class="fa-brands fa-youtube"></i> <span class="tooltip-text">Follow on Youtube</span></a>
+            </div>
+        </div>
+
+        <div class="header-wrapper-slide">
+            <div class="header-mid">
+                <img src="images/logo-mid.png" alt="VTC - ĐÀI TRUYỀN HÌNH KTS" title="VTC - ĐÀI TRUYỀN HÌNH KTS">
+            </div>
+    
+            <div id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Chính sách chương trình</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Nhãn hàng tài trợ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Mẫu nhí <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-item">Supermodel kid Vietnam Global 2024</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">❣️Mẫu nhí đăng ký tham giaVietnam International Junior Fashion Week 2024❣️</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">HỒ SƠ ỨNG TUYỂN</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">QUỸ THÂN ÁI - TRAO YÊU THƯƠNG</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Từ thiện</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="intro-section">
+        <div class="intro-content">
+            <div class="left">
+                <img src="images/intro/left.jpg" alt="left-image">
+            </div>
+            <div class="center">
+                <div class="slideshow-container">
+                    <div class="slides fade">
+                        <img src="images/slides/1.jpg" alt="1">
+                    </div>
+                    <div class="slides fade">
+                        <img src="images/slides/2.jpg" alt="2">
+                    </div>
+                    <div class="slides fade">
+                        <img src="images/slides/3.jpg" alt="3">
+                    </div>
+                    <div class="slides fade">
+                        <img src="images/slides/4.jpg" alt="4">
+                    </div>
+                    <div class="slides fade">
+                        <img src="images/slides/5.jpeg" alt="5">
+                    </div>
+
+                    <a href="#" class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-chevron-left"></i></a>
+                    <a href="#" class="next" onclick="plusSlides(+1)"><i class="fa-solid fa-chevron-right"></i></a>
+
+                    <div class="slide-show-nav">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+                </div>
+
+                <div class="slideshow-footer">
+                    <img src="images/slides/6.jpg" alt="6">
+                    <img src="images/slides/6.jpg" alt="6">
+                </div>
+
+                
+            </div>
+            <div class="right">
+                <img src="images/intro/right.jpg" alt="right-image">
+            </div>
+        </div>
+    </div>
+
+    <div class="info-section">
+        <div class="info-container">
+            <h2><strong>Vietnam Junior Fashion Week- siêu mẫu nhí 2024 </strong></h2>
+            <p>Vietnam Junior Fashion Week” là chương trình do Đài Truyền Hình Việt Nam phối hợp thực hiện cùng Học viện ngôi sao nhí</p>
+            <p>Quy mô cuộc thi bao gồm 2000 mẫu nhí trên toàn quốc. Cuộc thi gồm nhiều phần thi như: Trình diễn Áo Dài, Quốc Phục, Ca Hát, Nhảy, Múa, MC , Mẫu nhí</p>
+            <p>Các thí sinh được chia làm 3 bảng: 1-3 tuổi, 4-12 tuổi và 13-19 tuổi. Lồng ghép với các thử thách, Vietnam International Junior Model chú trọng các hoạt động xã hội ý nghĩa nhằm giáo dục các bạn nhỏ</p>
+            <div class="video-container" style="width: 100%;">
+                <iframe width="1140" height="591" src="https://www.youtube.com/embed/8I4imaSBfls" title="Siêu mẫu nhí toàn năng 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner-section">
+        <div class="banner-container">
+            <img src="images/banner/banner.png" alt="banner 1">
+            <img src="images/banner/banner2.jpg" alt="banner 2">
+        </div>
+    </div>
+
+    <div class="donors-section">
+        <div class="donors-container">
+            <div class="left">
+                <h4>NHÀ TÀI TRỢ CHƯƠNG TRÌNH MODEL KID</h4>
+                <img src="images/donors/bg.jpg" alt="bg">
+            </div>
+            <div class="right">
+                <!-- Tab links -->
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'tab-ao-nu')" id="defaultOpen">Áo nữ</button>
+                    <button class="tablinks" onclick="openTab(event, 'tab-quan-nu')">Quần nữ</button>
+                    <button class="tablinks" onclick="openTab(event, 'tab-giay-nu')">Giày nữ</button>
+                    <button class="tablinks" onclick="openTab(event, 'tab-phu-kien-nu')">Phụ kiện nữ</button>
+                </div>
+
+                <!-- Tab content -->
+                <div id="tab-ao-nu" class="tabcontent">
+                    <div class="card">
+                        <div class="card-img">
+                            <a href="#">
+                                <img src="images/donors/1.png" alt="1">
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title"><a href="#">Đơn vị tài trợ Hoa Dương</a></div>
+                            <a href="#" class="detail-btn">Đọc tiếp</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <a href="#">
+                                <img src="images/donors/2.jpg" alt="1">
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title"><a href="#">Nhà tài trợ MAISON (Đơn vị tài trợ chính)</a></div>
+                            <a href="#" class="detail-btn">Đọc tiếp</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <a href="#">
+                                <img src="images/donors/3.jpg" alt="1">
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title"><a href="#">Nhà tài trợ LAZADA</a></div>
+                            <a href="#" class="detail-btn">Đọc tiếp</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <a href="#">
+                                <img src="images/donors/4.png" alt="1">
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title"><a href="#">Nhà tài trợ UNESCO</a></div>
+                            <a href="#" class="detail-btn">Đọc tiếp</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <a href="#">
+                                <img src="images/donors/5.jpg" alt="1">
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title"><a href="#">Nhà tài trợ BIDV và các ngân hàng thương mại</a></div>
+                            <a href="#" class="detail-btn">Đọc tiếp</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <a href="#">
+                                <img src="images/donors/6.png" alt="1">
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title"><a href="#">Nhà tài trợ Brands Vietnam</a></div>
+                            <a href="#" class="detail-btn">Đọc tiếp</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <a href="#">
+                                <img src="images/donors/7.jpg" alt="1">
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title"><a href="#">Nhà tài trợ CGV</a></div>
+                            <a href="#" class="detail-btn">Đọc tiếp</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img">
+                            <a href="#">
+                                <img src="images/donors/8.png" alt="1">
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title"><a href="#">Nhà tài trợ Viện Logistics</a></div>
+                            <a href="#" class="detail-btn">Đọc tiếp</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div id="tab-quan-nu" class="tabcontent">
+                    
+                </div>
+                
+                <div id="tab-giay-nu" class="tabcontent">
+                    
+                </div>
+
+                <div id="tab-phu-kien-nu" class="tabcontent">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="donors-footer">
+            <p>Có thể bạn thích</p>
+
+        </div>
+    </div>
+
+    <div class="news-section">
+        <div class="news-container">
+            <h2>Tin tức - bài viết</h2>
+            <div class="news-list">
+                <div class="news-card">
+                    <a href="#">
+                        <div class="news-card-img">
+                            <img src="images/news/1.png" alt="news 1">
+                        </div>
+                        <div class="news-text">
+                            <h5 class="news-title">❣️Mẫu nhí đăng ký tham giaVietnam International Junior Fashion Week 2024❣️</h5>
+                            <small class="news-time">25/05/2024</small>
+                            <p class="news-desc">...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-card">
+                    <a href="#">
+                        <div class="news-card-img">
+                            <img src="images/news/2.jpg" alt="news 1">
+                        </div>
+                        <div class="news-text">
+                            <h5 class="news-title">Supermodel kid Vietnam Global 2024</h5>
+                            <small class="news-time">20/05/2024</small>
+                            <p class="news-desc">Buổi họp báo ra mắt chương trình Siêu mẫu nhí Việt Nam ...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-card">
+                    <a href="#">
+                        <div class="news-card-img">
+                            <img src="images/news/3.jpg" alt="news 2">
+                        </div>
+                        <div class="news-text">
+                            <h5 class="news-title">Á quân quốc tế Nguyễn Lê Thuỳ Linh làm đại sứ ‘Siêu mẫu nhí toàn năng’</h5>
+                            <small class="news-time">25/03/2024</small>
+                            <p class="news-desc">Ban tổ chức cho biết Đại sứ chương trình là Á quân ...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-card">
+                    <a href="#">
+                        <div class="news-card-img">
+                            <img src="images/news/4.jpg" alt="news 3">
+                        </div>
+                        <div class="news-text">
+                            <h5 class="news-title">Hoa hậu Thạch Thu Thảo ngồi ‘ghế nóng’ Siêu mẫu nhí toàn năng 2024</h5>
+                            <small class="news-time">25/03/2024</small>
+                            <p class="news-desc">NSƯT Trần Đại Mý – Trưởng BGK, Hoa hậu Thạch Thu Thảo, ...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="wrapper-button">
+                <a href="#" class="more-news-btn">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
